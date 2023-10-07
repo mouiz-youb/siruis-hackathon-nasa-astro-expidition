@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+.div1{
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    background-image: linear-gradient(51deg , #6e00ff, #00ff43);
+    margin: 30px;
+}
+.h2{
+    text-align:center;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.pro{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+ul {
+    margin: 5px;
+}
+ul li{
+    margin: 5px;
+    color: antiquewhite
+}
+ul li.li{
+list-style: none;
+position: relative;
+top: 10px;
+font-size: 20px;
+color: #121163;
+}
+form{
+    border: none;
+    box-shadow: 2px 2px 8px 6px red;
+    border-radius: 40px 0px;
+    width: 400px;
+    height: 300px;
+    padding-left: 20px;
+    transition-duration:1s ;
+    transition-delay: 1s;
+    background-image: linear-gradient(90deg , rgb(128, 28, 28),rgb(38, 38, 160));
+}
+p{
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+input{
+    display: block;
+    border: none;
+    width: 200px;
+    height: 20px;
+    border: 20px opx;
+    border-radius: 20px 0px;
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    padding-left: 10px;
+    color: #006eff;
+    transition-duration:0.5s ;
+    transition-delay: 0.5s;
+}
+label{
+    position: relative;
+    /* top: 23px; */
+    left: 80px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+input::placeholder{
+    font-size: 15px;
+    color: transparent;
+    padding-left:10px ;
+}
+form:hover{
+    position: relative;
+    left: 20px;
+}
+

@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.div ul {
+    display: flex;
+    background-color: darkslategrey;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    position: relative;
+}
+.div ul li {
+    list-style: none;
+    margin: 10px;
+}
+.div ul li a{
+    text-decoration: none;
+    color: rgb(103, 103, 216);
+    font-size: 25px;
+}
+.div ul li a:hover{
+    background-color: cadetblue;
+    color: brown;
+    border-radius: 8px;
+}
+/* div.ty:hover{
+    font-size: xx-large;
+    color: goldenrod;
+    text-decoration: underline;
+} */
+.div2{
+    display: none;
+}
+.div ul li:hover  .div2{
+    display: block;
+}
+.div ul li:hover  .div2 ul{
+    display: inline-block;
+    position: absolute;
+}
+.div ul li:hover  .div2 ul li{
+    border-bottom: 2px solid brown ;
+}
+.div ul li:hover  .div2 ul li a:hover{
+    text-decoration: underline;
+    margin: 5px;
+}
+.div ul li:hover  .div2 ul li:last-child{
+    border-bottom: none;
+}
+.div3{
+    display: none;
+}
+.div ul li:hover  .div3{
+    display: block;
+}
+.div ul li:hover  .div3 ul{
+    display: inline-block;
+    position: absolute;
+}
+.div ul li:hover  .div3 ul li{
+    border-bottom: 2px solid brown ;
+}
+.div ul li:hover  .div3 ul li a:hover{
+    margin: 5px;
+}
+.div ul li:hover  .div3 ul li:last-child{
+    border-bottom: none;
+}
+.div4{
+    display: none;
+}
+.div ul li:hover .div3 ul li:hover .div4{
+    display: block;
+}
+.div ul li:hover .div3 ul li:hover .div4 ul{
+    display: inline-block;
+}
+
+.div ul li:hover .div3 ul li .div4 ul{
+    width: 200px;
+}
+.div ul li:hover .div3 ul li:hover .div4 ul{
+    position: absolute;
+    left: 160px;
+    top: 35px;
+}
+.div5{
+    display: none;
+}
+.div ul li:hover .div3 ul li:hover .div5{
+    display: block;
+}
+.div ul li:hover .div3 ul li:hover .div5 ul{
+    display: inline-block;
+}
+
+.div ul li:hover .div3 ul li .div5 ul{
+    width: 200px;
+}
+.div ul li:hover .div3 ul li:hover .div5 ul{
+    position: absolute;
+    left: 165px;
+    top: 80px;
+}
+.div6{
+    display: none;
+}
+.div ul li:hover .div6{
+    display: block;
+}
+.div ul li:hover .div6 ul{
+    display: inline-block;
+    position: absolute;
+}
+.div ul li:hover .div6 ul li{
+    border-bottom: 2px solid brown ;
+}
+.div ul li:hover .div6 ul li:last-child{
+    border-bottom: none;
+}
+.div7{
+    display: none;
+}
+.div ul li:hover .div6 ul li:hover .div7{
+    display: block;
+}
+.div ul li:hover .div6 ul li:hover .div7 ul {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    /* bottom: 5px; */
+}
+.div ul li:hover .div6 ul li:hover .div7 ul li{
+    border-bottom: 2px solid brown ;
+}
+.div ul li:hover .div6 ul li:hover .div7 ul li:last-child{
+    border-bottom: none ;
+}
+
+

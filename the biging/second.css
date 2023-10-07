@@ -1,0 +1,59 @@
+span {
+    background-color: rgb(24, 172, 172);
+    color: rgb(216, 213, 28);
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+body{
+    background-image: url(css/Lamborghin.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.one{
+    color: rgb(235, 231, 23);
+}
+.two{
+    color: rgb(17, 182, 17);
+}
+.tree{
+    color: red;
+}
+.four{
+    color: rgb(9, 4, 88);
+    background-position:right top;
+}
+.one,
+.two,
+.tree,
+.four{
+background-color: chocolate;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
+border-bottom: 5px solid black;
+/* display: inline-block; */
+width: 40px;
+}
+.go{
+color: rgb(194, 192, 223);
+background-image: url(css/Lamborghin.jpg);
+/* background-color: chocolate; */
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
+background-size: cover;
+border-bottom: 5px solid black;
+width: 300px;
+height: auto;
+background-position: center;
+}
+div .special{
+    color: coral;
+}
+p{
+    color: cornflowerblue;
+    /* width: 100px;
+    height:300px ;
+    overflow:auto; */
+}

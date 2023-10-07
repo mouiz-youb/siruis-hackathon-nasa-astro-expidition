@@ -1,0 +1,35 @@
+legend{
+    text-align: center;
+    color: chocolate;
+    border-radius: 10px;
+    border:5px solid rgba(0, 110, 255, 0.678);
+    background-position: 50%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+div{
+    /* margin: 100px 200px; */
+    text-align: center;
+    background-color: aqua;
+    background-position: 30%;
+    display: inline-block;
+    
+
+}
+div .you{
+    background-color: coral;
+   
+}
+div .fifa{
+ width:100px ;
+}
+img{
+    width: 800px;
+    height: 500px;
+}
+ .jak{
+   background-color: goldenrod;
+ }

@@ -1,0 +1,221 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.div{
+    position: relative;
+}
+.div .img a img{
+    width: 50px;
+    border-radius: 0px 60px;
+    height: 90px;
+    border: 2px solid transparent;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    box-shadow:-4px 7px 8px 5px rgb(0, 162, 255);
+    margin: 20px;
+}
+.img a:hover img{
+    width: 50px;
+    border-radius: 0px 60px;
+    height: 90px;
+    box-shadow:3px -3px 8px 5px rgb(165, 27, 27) ;
+}
+
+.div .divul{
+    position: relative;
+    bottom: 80px;
+    box-shadow: -5px 4px 6px 3px rgb(0, 162, 255);
+    margin:  0 80px;
+    border-radius: 20px 0;
+    border: 2px solid transparent;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+}
+.div .divul ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.div .divul ul li{
+    list-style: none;
+    font-size: 25px;
+}
+.div .divul ul li a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+.div .divul ul li:hover a:hover{
+    color: rgb(165, 27, 27) ;
+    /* border: 2px solid rgb(165, 27, 27) ; */
+}
+.div .divul:hover{
+    box-shadow:5px -3px 6px 3px rgb(165, 27, 27) ;
+    height: 40px;
+    border-radius: 0 20px;
+} 
+.div .divul ul li input.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px 0px;
+    box-shadow: -5px 4px 6px 3px rgb(0, 162, 255);
+    padding: 0 7px;
+    color: antiquewhite;
+    position: relative;
+    bottom: 2px;
+} 
+.div .divul ul li input.input:hover{
+    box-shadow:5px -3px 6px 3px rgb(165, 27, 27) ;
+}
+.div .divul ul li input.input::placeholder{
+    font-size: 15px;
+    color: antiquewhite;
+}
+::selection{
+    background-color: black;
+    color: rgb(0, 162, 255);
+}
+.bo{
+    padding: 20px;
+    margin: 20px;
+}
+.bo .p1{
+    color: aqua;
+    font-size: 70px;
+}
+.bo .p2{
+    font-size: 60px;
+    color: white;
+}
+.bo .p3{
+    font-size: 50px;
+    color: aqua
+}
+.bo .p4{
+    font-size: 20px;
+    color: white;
+}
+form{
+    box-shadow: -5px 4px 6px 3px rgb(0, 162, 255);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    bottom: 200px;
+    height: 400px;
+    left: 900px;
+    top: 150px;
+    border-radius: 0 50px ;
+}
+form:hover{
+    box-shadow:5px -3px 6px 3px rgb(165, 27, 27) ;
+    border-radius:  30px 0;
+}
+form .but1, .input1, .input2, .bot2 {
+    display: block;
+    margin: 30px 0;
+}
+form .but1{
+    width: 200px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    left: 40px;
+    font-size: 20px;
+    border-radius: 20px 0px;
+    box-shadow: -5px 4px 6px 3px rgb(0, 162, 255);
+    padding: 0 10px;
+    color: antiquewhite;
+    position: relative;
+    bottom: 29px;
+}
+form .input1{
+    width: 230px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    left: 40px;
+    font-size: 20px;
+    border-radius: 20px 0px;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom: 2px solid rgb(0, 162, 255);
+    color: antiquewhite;
+}
+form .input2{
+    width: 230px;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    left: 40px;
+    border-radius: 20px 0px;
+    height: 30px;
+    padding: 0 10px;
+    color: antiquewhite;
+    border-bottom: 2px solid rgb(0, 162, 255);
+}
+form .but2 {
+    width: 200px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    left: 40px;
+    border-radius: 20px 0px;
+    box-shadow: -5px 4px 6px 3px rgb(0, 162, 255);
+    padding: 0 10px;
+    color: antiquewhite;
+    position: relative;
+}
+form .but2:hover{
+    box-shadow:5px -3px 6px 3px rgb(165, 27, 27) ;
+}
+form .but2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+form .but2 a:hover{
+    color: rgb(165, 27, 27) ;
+}
+form .input1::placeholder,.input2::placeholder{
+    color: rgb(165, 27, 27) ;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+form .pform{
+    color: aqua;
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+form .pform2{
+    color: aqua;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+form .pform2 a{
+    cursor: pointer;
+    color: aqua;
+}
+form .pform2 a:hover{
+    color: rgb(165, 27, 27) ;
+    cursor: pointer;
+
+}

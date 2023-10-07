@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(11, 11, 141, 0.63);
+}
+
+legend{
+    text-align: center;
+    border: 5px solid rgba(30, 160, 211, 0.932);
+    color :rgb(202, 86, 9);
+    border-radius: 30px;
+    background-color:rgba(161, 13, 13, 0.651);
+}
+fieldset{
+    background-image: url("crop.jpg");
+    background-size: contain;
+    background-position: 50%,50%;
+    border:5px solid rgba(30, 160, 211, 0.932) ;
+    border-radius: 30px;
+    background-repeat: space;
+
+}
+div{
+    padding: 2px;
+}
+input{
+    border:3px solid rgba(30, 160, 211, 0.932) ;
+    border-radius: 30px;
+    width: 200px;
+    background-color:  rgba(11, 11, 141, 0.63);
+    display: block;
+    width: 20%;
+    display: inline-block;
+}
+label{
+    display:  inline-block;
+    color: Lime ;
+}
+p{
+    color:Lime ;
+}
+input::placeholder{
+    color :maroon;
+    text-align: center;
+    }
+textarea{
+    background-color: rgba(11, 11, 141, 0.63);
+    color :rgb(206, 175, 175);
+    text-align: center;
+    min-width: 150px;
+    min-height: 150px;
+}
+i{
+    color:Lime ; 
+}

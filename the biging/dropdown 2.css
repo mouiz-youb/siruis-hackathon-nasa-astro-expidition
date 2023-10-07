@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div{
+    background-color: rgba(0, 255, 255, 0.541);
+    text-align: center;
+}
+.div ul{
+    display: inline-flex;
+    list-style: none;
+}
+.div ul li{
+    width: 120px;
+    margin: 20PX;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.div ul li a{
+    text-decoration: none;
+}  
+.act,.div ul li:hover{
+    background-color: rgba(74, 74, 224, 0.479);
+    border-radius: 5px;
+}
+.div2{
+    display: none;
+}
+.div ul li:hover .div2{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgba(0, 255, 255, 0.541);
+}
+.div ul li:hover .div2 ul {
+    display: inline-block;
+}
+.div ul li:hover .div2 ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted rgb(155, 20, 49);
+    text-align: left;
+}
+.div ul li:hover .div2 ul li a:hover{
+    color: rgb(114, 16, 16);
+}
+.div3{
+    display: none;
+}
+.div ul li:hover .div3{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgba(0, 255, 255, 0.541);
+}
+.div ul li:hover .div3 ul {
+    display: inline-block;
+}
+.div ul li:hover .div3 ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(155, 20, 49);
+    text-align: left;
+}
+.div4{
+    display: none;
+}
+.div ul li:hover .div4{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgba(0, 255, 255, 0.541);
+}
+.div ul li:hover .div4 ul {
+    display: inline-block;
+}
+.div ul li:hover .div4 ul li{
+    width: 150px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(155, 20, 49);
+}
+.div5{
+    display: none;
+}
+.div ul li:hover  .div5{
+    display: block;
+    position: absolute;
+}
+.div ul li:hover  .div5 ul {
+    display: inline-block;
+}
+.div ul li:hover  .div5 ul li{
+    width: 150px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(155, 20, 49);
+}
+.div6{
+    display: none;
+}
+.div ul li:hover .div6 {
+    display: block;
+    position: absolute;
+}
+.div ul li:hover .div6 ul{
+    display: inline-block;
+    background-color: rgba(0, 255, 255, 0.541);
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.div ul li:hover .div6 ul li{
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(155, 20, 49);
+}
+.gmago{
+    width: 100%;
+    height: 310px;
+    position: sticky;
+}
+.divo{
+    position: relative;
+    top: 100px;
+}
+body{
+    height: 2000px;
+}
+
+
+
+

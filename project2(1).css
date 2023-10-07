@@ -1,0 +1,169 @@
+body{
+    background-color: rgba(7, 7, 88, 0.623);
+}
+.you{
+color: rgb(231, 235, 11);
+display: inline-block;
+
+}
+div.you2{
+color: silver;
+display: inline-block;
+}
+div.you3{
+    color: rgb(250, 44, 8);
+    display: inline-block;
+}
+.ref{
+    color: rgb(231, 235, 11);
+}
+.ref1{
+    color:  silver;
+}
+.ref2{
+    color: rgb(250, 44, 8);
+    
+}
+.lan{
+    background-image:url(css/Lamborghin.jpg);
+    background-size: cover;
+    background-position:center;
+    padding: 15px;
+}
+.fira{
+    background-image:url(css/Ferrari4-jpg..webp);
+    background-size: cover;
+    padding: 15px;
+}
+.mer{
+    background-image:url(css/mercedes.jpg);
+    background-size: cover;
+    padding: 15px;
+}
+div .ref{
+    
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgb(231, 235, 11);
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+div .ref1{
+    margin: 10px;
+    padding: 3px;
+    border: 3px solid silver;
+    border-radius: 5px;
+    text-decoration: none;
+}
+div .ref2{
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgb(250, 44, 8);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.que1{
+    color: rgb(250, 44, 8);
+    text-align: center;
+    
+}
+.que2{
+    color: black;
+    text-align: center;
+    
+}
+.que{
+    /* color:cornflowerblue; */
+    color: goldenrod;
+    text-align: center;
+}
+.his{
+    color:goldenrod;
+    text-align: left;
+}
+
+img{
+    width: 150px;
+    height: 80px;
+    vertical-align: middle;
+}
+.logo1{
+    width: 70px;
+    height: 70px;
+}
+.logo2{
+    width: 70px;
+    height: 70px;
+}
+.his1{
+    color:black;
+    text-align: left;
+
+}
+
+.his2{
+    color:rgb(250, 44, 8);
+    text-align: left;
+
+}
+.p1{
+background-color: rgba(192, 192, 192, 0.315);
+width: 350px;
+height: auto;
+color: black;
+background-position: center;
+background-size: cover;
+margin: 10px;
+border-radius: 5px;
+padding: 10px;
+}
+.p {
+background-color: rgba(100, 148, 237, 0.459);
+margin: 10px;
+width: 350px;
+height: auto;
+color: goldenrod;
+background-position: center;
+background-size: cover;
+border-radius: 5px;
+padding: 10px;
+}
+.p2{
+background-color: rgba(192, 192, 192, 0.192);
+width: 350px;
+height: auto;
+background-position: center;
+background-size: cover;
+margin: 10px;
+border-radius: 5px;
+padding: 10px;
+}
+.store{
+    text-align: center;
+    color: goldenrod;
+}
+.aven{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.in{
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+}
+.h2{
+    /* background-image: url(css/aventador2.jpg); */
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+.get{
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px;
+    border-radius: 10px;
+}
+

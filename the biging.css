@@ -1,0 +1,28 @@
+div {
+    background-image: url(./css/crop.jpg);
+    background-size: cover;
+    background-position:50% 50%;
+    color: rgb(235, 146, 14);
+    padding: 20px;
+    width:60%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-width:7px ;
+    border-color:rgb(0, 174, 255) ;
+    border-style:solid ;
+    outline: 7px solid rgb(102, 255, 0) ;
+    border-radius:40px  ;
+    text-shadow: 1px 1px 2px rgb(102, 255, 0) ;
+   
+    
+}
+  div .yo{
+    text-align: center;
+}
+ div .fifa{
+    text-align: center;
+}
+ 
+
+   

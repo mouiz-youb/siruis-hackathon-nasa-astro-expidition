@@ -1,0 +1,176 @@
+/* parent:
+gap= row-gap+column-gap
+child:
+1/ grid-coloumn
+2/ grid-row
+
+*/
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.grid{
+    border: 2px solid black;
+    background-color: #531010;
+    display: grid;
+    grid-template-columns: repeat( 10,1fr);
+    grid-template-areas: "child1 child2  child2 child2  child2  child3 child3 child3 child3 child4"
+    "child5 child6  child6 child6  child6  child7 child7 child7 child7 child8";
+    gap: 20px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 100px;
+    height: 500px;
+}
+.child1{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child1;
+}
+.child2{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child2;
+}
+.child3{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child3;
+}
+.child4{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child4;
+}
+.child5{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child5;
+}
+.child6{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child6;
+}
+.child7{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child7;
+}
+.child8{
+    color: white; 
+    background-color: rgb(66, 79, 153);
+    text-align: center;
+    grid-area: child8;
+}
+/* ul li{
+    list-style: none;
+    display: inline-block;
+}
+.page{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "logo logo nav nav nav nav nav nav nav nav"
+    "sect sect sect sect sect sect sect side side side"
+    "foot foot foot foot foot foot foot foot foot foot";
+} */
+/* h2{
+    background-color: rgb(68, 151, 151);
+    color: #123f2c;
+    grid-area: logo;
+}
+nav{
+    background-color: rgb(92, 167, 49);
+    color: #3f1212;
+    font-size: 20px;
+    grid-area: nav;
+} */
+/* section{
+    background-color: rgb(102, 8, 165);
+    color: #3f1212;
+    font-size: 20px;
+    grid-area: sect;
+}
+aside{
+    background-color: rgb(41, 66, 119);
+    color: #3f1212;
+    font-size: 20px;
+    grid-area: side;
+}
+footer{
+    background-color: rgb(10, 77, 221);
+    color: #3f1212;
+    font-size: 20px;
+    grid-area: foot;
+} */
+.grid2 {
+    background-color: #7c2121;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    color: rgb(100, 165, 223);
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 20px;
+    }
+    .one{
+        color: white; 
+        background-color:rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 6;
+    }
+    .two{
+        color: white; 
+        background-color: rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 4;
+    }
+    .three{
+        color: white; 
+        background-color: rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 2;
+    }
+    .four{
+        color: white; 
+        background-color:rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 2;
+    }
+    .five{
+        color: white; 
+        background-color: rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: 3/7;
+        grid-row: 3/6;
+    }
+    .six{
+        color: white; 
+        background-color:rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 2;
+    }
+    .seven{
+        color: white; 
+        background-color:rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: 1/span 2;
+    }
+    .eight{
+        color: white; 
+        background-color: rgba(66, 79, 153, 0.425);
+        text-align: center;
+        grid-column: span 6;
+    }

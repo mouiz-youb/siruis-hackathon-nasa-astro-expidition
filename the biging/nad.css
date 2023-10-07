@@ -1,0 +1,65 @@
+body{
+    height: 2500px;
+}
+
+p{
+    border-radius: 20px;
+    border: 5px solid rgb(56, 15, 94);
+}
+.youb1{
+    text-shadow: 4px 4px 4px goldenrod;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin: 30px;
+    display: inline-block;
+}
+.youb2{
+    text-shadow: 4px 4px 4px rgba(36, 35, 33, 0.541);
+    color: silver;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    display: inline-block;
+    margin: 30px;
+}
+.youb3{
+    text-shadow: 4px 4px 4px red;
+    color: rgb(14, 14, 75);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    left: 500px;
+}
+.ki{
+    position:sticky;
+    top: 0px;
+    background-color: rgba(35, 10, 58, 0.589);
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+}
+.st{
+    text-align: center;
+}
+a{
+    color: rgb(151, 31, 31);
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(38, 38, 122);
+    font-size: 50px;
+    border-radius: 20px;
+    border: 3px solid rgb(50, 97, 112);
+}

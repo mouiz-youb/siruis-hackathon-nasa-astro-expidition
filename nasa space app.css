@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%; 
+}
+::selection{
+    background-color: rgb(8, 10, 19);
+    color: whitesmoke;
+}
+body{
+    background-image:url('galaxy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: fi; */
+}
+div.nav{
+    display: flex;
+    justify-content: space-between;
+}
+img.logo{
+    width: 120px;
+}
+nav{
+    display: flex;
+    position: relative;
+    /* left: 90px;
+    top: 20px; */
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 50px;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #0c0032;
+    border-radius: 40px 0;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    box-shadow: -8px 8px 5px 1px #176B87;
+}
+nav:hover{
+    border-radius: 40px 0;
+    box-shadow:9px -7px 5px 1px #176B87;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    margin:0 90px ;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #240090;
+}
+
+div.content2{
+    width: 300px;
+}
+.page1 {
+    font-size: 80px;
+    position: absolute;
+    text-transform: capitalize;
+    left: 200px;
+    top: 220px;
+    color: #03ffee;
+}
+
+
+.page2 {
+    color: #240090;
+    font-size: 60px;
+    position: relative;
+    text-transform: capitalize;
+    top: 180px;
+    left: 30px;
+}
+.page3{
+    color: #3500d3;
+    font-size: 30px;
+    position: relative;
+    top: 205px;
+    left: 30px;
+}
+form{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    width: 350px;
+    position: relative;
+    left: 700px;
+    bottom: 290px;
+    border-radius: 50px 0;
+    box-shadow: 1px 0px 7px 5px #7395ae ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translate(100px,150px);
+    background-image: linear-gradient(20deg,#7395ae,#0c0c78);
+}
+legend{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #141427;
+}
+input.name2,input.surname2,input.pass2{
+    display: block;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 20px;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+    color:#355368;
+    background-color: aliceblue;
+    /* background-image: linear-gradient(50deg,#0c0032,aliceblue); */
+}
+input.name2::placeholder,input.surname2::placeholder,input.pass2::placeholder{
+    text-transform: capitalize;
+    color:#2f4352;
+    font-size: 20px;
+}
+label{
+    position: relative;
+    left: 100px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #0c0c78;
+    margin: 20px 0;
+}
+img.insta ,img.yout,img.link{
+    width: 40px;
+    margin: 0 30px;
+}

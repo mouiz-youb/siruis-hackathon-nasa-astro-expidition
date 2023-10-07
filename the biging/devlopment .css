@@ -1,0 +1,192 @@
+body{
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+
+}
+.divul ul{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5px;
+}
+.divul ul li{
+    list-style: none;
+    justify-content: space-evenly;
+    margin:  0px 20px;
+}
+.div ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+}
+.div ul li a:hover{
+    color: rgb(24, 24, 112);
+    text-decoration: underline;
+}
+.p{
+    position: relative;
+    bottom: 30px;
+    right: 80px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+.p:hover{
+    color: rgb(24, 24, 112);
+    border-radius: 20px;
+}
+.input{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    border-radius: 20px;
+}
+.input input{
+    color: rgb(18, 18, 78);
+    outline: none;
+    border: none;
+    height: 30px;
+    border: 2px solid rgba(250, 235, 215, 0.493);
+}
+.input button{
+    background-color: rgba(53, 53, 185, 0.507);
+    color: antiquewhite;
+    position: relative;
+    right: 4px;
+    /* bottom: 6px; */
+    border: none;
+    height: 30px;
+    display: inline-block;
+    width: 60px;
+    border: 2px solid antiquewhite;
+}
+.input input::placeholder{
+    color: rgb(18, 18, 78);
+    text-align: center;
+}
+.bo{
+    color: antiquewhite;
+    padding-left: 35px;
+}
+.bo .p1{
+    font-size: 60px;
+}
+.bo .p2{
+    font-size: 75px;
+    color: rgb(18, 18, 78);
+    position: relative;
+    bottom: 60px;
+}
+.bo .p3{
+    font-size:50px ;
+    position: relative;
+    bottom:130px;
+}
+.bo .p4{
+    position: relative;
+    bottom: 150px;
+}
+.bot{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: antiquewhite;
+    background-color:rgb(18, 18, 78) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 140px;
+}
+.bot:hover{
+    background-color:antiquewhite ;
+    color: rgb(18, 18, 78);
+}
+form{
+    border: 2px solid rgb(70, 70, 180);
+    width: 300px;
+    padding: 0 20px;
+    position: relative;
+    left: 850px;
+    bottom: 550px;
+    border-radius: 20px;
+    background-color: rgba(127, 255, 212, 0.411);
+}
+.bot2{
+    display: block;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    border: 1px solid goldenrod;
+    margin: 20px 0;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    background-color:rgb(18, 18, 78) ;
+}
+.email{
+    display: block;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    margin: 30px 0;
+    border-bottom: 1px solid goldenrod;
+    outline: none;
+    text-transform: capitalize;
+}
+.pass{
+    display: block;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    margin: 30px 0;
+    border-bottom: 1px solid goldenrod;
+    outline: none;
+}
+.pass::placeholder{
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+.email::placeholder{
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+.submit{
+    display: block;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    margin: 30px 0;
+    border: 1px solid goldenrod;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    background-color:rgb(18, 18, 78) ;
+}
+.pform,.pform2{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    color: rgb(18, 18, 78);
+}
+.pform2{
+    position: relative;
+    bottom: 20px;
+}
+
